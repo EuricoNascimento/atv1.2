@@ -1,0 +1,39 @@
+.navegador header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    padding: 0 10%;
+    background-color: greenyellow;
+}
+
+.navegador ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: 1s;
+}
+
+.navegador ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navegador ul li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    width: 500;
+    font-size: 20px;
+    padding: 30px 30px;
+    color: blue;
+}
+
+.navegador ul li a:hover {
+    color: black;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    font-size: 40px;
+}
